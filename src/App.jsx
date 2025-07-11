@@ -8,9 +8,14 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className=" select-none">
+      <div className=" select-none ">
+        <div className="bg-[url('./assets/bg-tablet-pattern.svg')]  "
+
+        >
+
         <Navbar />
         <Intro />
+        </div>
       <Main />
       <TestimonialSlider />
       <Footer />

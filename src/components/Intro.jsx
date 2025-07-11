@@ -11,7 +11,7 @@ export default function Intro() {
   return (
     <>
    <>
-  <div className="px-6 flex flex-col lg:flex-row-reverse lg:justify-evenly md:items-center text-center lg:text-start mb-20 md:mt-20">
+  <div className="px-6 flex flex-col lg:flex-row-reverse lg:justify-evenly md:items-center text-center lg:text-start pb-25 md:mt-20">
     
  
     <img
