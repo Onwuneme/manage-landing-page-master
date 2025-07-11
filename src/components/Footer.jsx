@@ -30,7 +30,7 @@ export default function Footer() {
           Get Started
         </button>
       </div>
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 bg-[#222225] px-6 py-16">
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 bg-[#222225] px-6 lg:px-30 py-16">
  
   <form
     onSubmit={handleSubmit}
@@ -58,17 +58,17 @@ export default function Footer() {
 
  
   <div className="grid space-x-4 justify-center text-white text-sm lg:col-start-2 lg:row-start-1 lg:row-end-3 ">
-    <p>Home</p>
-    <p>Pricing</p>
-    <p>Products</p>
-    <p>About Us</p>
+    <p className=" duration-500 hover:text-orange-600">Home</p>
+    <p className=" duration-500 hover:text-orange-600">Pricing</p>
+    <p className=" duration-500 hover:text-orange-600">Products</p>
+    <p className=" duration-500 hover:text-orange-600">About Us</p>
   </div>
 
 
   <div className="grid space-x-4 justify-center text-white text-sm lg:col-start-3 lg:row-start-1 lg:row-end-3  ">
-    <p>Careers</p>
-    <p>Community</p>
-    <p>Privacy Policy</p>
+    <p className=" duration-500 hover:text-orange-600">Careers</p>
+    <p className=" duration-500 hover:text-orange-600">Community</p>
+    <p className=" duration-500 hover:text-orange-600">Privacy Policy</p>
   </div>
 
 
@@ -82,7 +82,7 @@ export default function Footer() {
 
 
   <div className="col-span-2 lg:col-span-1 lg:row-start-1 flex justify-center lg:justify-start ">
-    <img src={logo} alt="Logo" className=" w-fit" />
+    <img src={logo} alt="Logo" className=" w-30 h-5" />
   </div>
   <p className="col-span-2 lg:col-start-4 text-neutral-400 text-xs flex justify-center lg:justify-end">
     Copyright 2020. All Rights Reserved
